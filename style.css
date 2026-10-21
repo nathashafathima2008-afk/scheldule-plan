@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+p {
+    font-family: emphasis;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #000000;
+}
+h1,h2 {
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+pseudo-element {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #cccccc;
+    margin: 20px 0;
+}
+a {
+    color: #111213;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}
+ 
+circle-img{
+  width: 200px;
+  height: 200px; /* Width and height must be identical */
+  border-radius: 50%; /* Rounds the corners into a perfect circle */
+  object-fit: cover; /* Prevents stretching if the original image isn't square */
+}
+.gradient {
+  padding: 30px;
+  background-image: linear-gradient(to right, rgb(240, 99, 99), rgb(154, 85, 233));
+  background-clip: content-box; /* The gradient won't bleed into the padding */
+}
+.nav-link {
+  color: #d1d8df;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+nav{
+  background-color: #bcaff5; /* Light background on hover */
+  color: #324150; /* Dark text on hover */
+  border-radius: 5px; /* Optional: rounded corners for the hover effect */
+}
+nav :hover {
+  background-color: #000000; /* Light background on hover */
+  color: #d5dee7; /* Dark text on hover */
+  border-radius: 5px; /* Optional: rounded corners for the hover effect */
+}
+.card-text{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #b794f0;
+}
+.card-text:hover {
+    color: #e20303;
+    
+}
